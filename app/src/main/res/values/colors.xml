@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="lightGreen">#98FB98</color>
+    <color name="black">#f0000000</color>
+    <color name="bob">#FFF2F352</color>
+    <color name="patrick">#FFEE6F5B</color>
+    <color name="lightGreenSea">#1f7770</color>
+    <color name="song">#ff0097a7</color>
+    <color name="cyan_300">#ff4dd0e1</color>
+    <color name="address">#c7c7c7</color>
+
+
+</resources>
