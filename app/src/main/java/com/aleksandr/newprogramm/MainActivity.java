@@ -54,8 +54,8 @@ public class MainActivity extends AppCompatActivity {
         btnThree.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                tvNumber.setText("СПАНЧ БОБ квадратные штаны!!!! Труляляяяяяяяяяяяяяяяяяяяяяяяяяя");
-                tvScroll.setText("СПАНЧ БОБ квадратные штаны!!!! Труляляяяяяяяяяяяяяяяяяяяяяяяяяя");
+                tvNumber.setText("СПАНЧ БОБ квадратные штаны!!!!");
+                tvScroll.setText("СПАНЧ БОБ квадратные штаны!!!! ********************************");
             }
         });
 

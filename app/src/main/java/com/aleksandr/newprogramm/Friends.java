@@ -18,7 +18,7 @@ public class Friends {
     @DrawableRes
     int image;
 
-    public Friends(String name, String secName, int age, String gender, String address, int image) {
+    private Friends(String name, String secName, int age, String gender, String address, int image) {
         this.name = name;
         this.secName = secName;
         this.age = age;
@@ -61,7 +61,7 @@ public class Friends {
 
         ArrayList<Friends> friends = new ArrayList<>();
 
-        friends.add(new Friends("Патрик", "Стар", 20, "Male", "Ocean", R.drawable.star));
+        friends.add(new Friends("Патрик", "Стар :)", 20, "Male", "Ocean", R.drawable.star));
         friends.add(new Friends("Сквидвард", "Квентин Тентаклс", 25, "Male", "Ocean", R.drawable.skvidvard));
         friends.add(new Friends("Гэри", "Уилсон-младший", 3, "Male", "BobHome", R.drawable.gery));
         return friends;
