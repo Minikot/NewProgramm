@@ -9,7 +9,7 @@ public class FriendsDbHelper extends SQLiteOpenHelper {
     public static final int DB_VERSION = 1;
     public static final String DB_NAME = "friend.sqlite";
 
-    public FriendsDbHelper(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
+    public FriendsDbHelper(Context context) {
         super(context, DB_NAME, null , DB_VERSION);
     }
 
